@@ -1,0 +1,14 @@
+body {
+    background-color: bisque;
+    font-family: monospace;
+    color: black;
+}
+
+h1 {
+    color: green;
+}
+
+h3 {
+    color: darkblue;
+    font-size: 18px;
+}
