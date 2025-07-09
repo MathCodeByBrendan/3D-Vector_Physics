@@ -5,6 +5,8 @@ import math
 
 t = sp.symbols('t')
 
+G_EARTH = 9.81
+
 def gravity():
     
     while True:
@@ -33,9 +35,20 @@ def gravity():
     return planet_name, g
 
 def jump_velocity():
-    max_height_earth = float(input("How high can you jump in meters: "))
+    while True:
+        try:
+            max_height_earth = float(input("How high can you jump in meters: "))
+
+            if max_height_earth < 0:
+                print("Jump height must be non-negative.")
+                continue
+            
+        except ValueError:
+            print("Height must be a non-negative number. 23432, 23.12, ect.")
+            continue
+        break
     #initial vertical velocity formula: sqrt(2g(max height))
-    v_o = math.sqrt(2*9.81*max_height_earth)
+    v_o = math.sqrt(2*G_EARTH*max_height_earth)
     return max_height_earth, v_o
 
 def height_as_a_function_of_time():
@@ -43,8 +56,13 @@ def height_as_a_function_of_time():
     planet_name, g_other = gravity()
     max_height_earth, v_o = jump_velocity()
     max_height_other = math.fabs((v_o ** 2) / (2*g_other))
-    p_o = float(input("Enter start height, recomended start height is 0. Start height: "))
-
+    while True:
+        try:
+            p_o = float(input("Enter start height, recomended start height is 0. Start height: "))
+        except ValueError:
+            print("Enter a height number(m)")
+            continue
+        break
     v_of_t = sp.integrate(g_other, t) + v_o
     p_of_t = sp.integrate(v_of_t, t) + p_o
 
