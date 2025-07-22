@@ -1,28 +1,39 @@
-import matplotlib.pyplot as plt
-import numpy as np
-from matplotlib.ticker import FuncFormatter
+def s():
+    # Get spring constant
+    while True:
+        try:
+            k = float(input("Enter k (N/m): "))
+            if k <= 0:
+                print("k must be greater than 0.")
+                continue
+            break
+        except ValueError:
+            print("Please enter a number.")
 
-# --- data ---
-x      = np.linspace(0, 6*np.pi, 1000)
-cos_x  = np.cos(x)          # predefined as requested
-sin_x  = np.sin(x)
-y = 0
+    g = 9.81
+    system = []
 
-# --- plot ---
-plt.plot(x, cos_x, color = "green", label = 'cos(x)')
-plt.plot(x, sin_x, color = "blue",  label = 'sin(x)')
-plt.plot(x, y, color='black')
+    # get masses, calculate displacement
+    while True:
+        mass_str = input("Enter mass, else press enter to exit: ").strip()
+        if not mass_str:
+            break
 
-# --- π-spaced x-ticks ---
-ticks = np.pi * np.arange(0, 7)            # 0, π, 2π, …, 6π
-plt.xticks(ticks)
-plt.gca().xaxis.set_major_formatter(
-    FuncFormatter(lambda v, _: '0' if v == 0 else rf'{v/np.pi:.0g}π')
-)
+        try:
+            mass = float(mass_str)
+            if mass <= 0:
+                print("Mass must be gretaer than 0")
+                continue
 
-plt.xlim(0, 6*np.pi)        # remove auto-padding so ticks align
-plt.xlabel("x")
-plt.ylabel("y")
-plt.grid(True)
-plt.legend()
-plt.show()
+        except ValueError:
+            print("Mass must be a number greater than 0, eg: 1234.34. Enter as number.")
+            continue
+
+        system.append((mass, mass * g / k))
+    print(f"The displacements of the masses hanging from the spring with spring coefficient = {k} pulled down by gravity:")
+    print("Mass (kg)     Stretch(m)")
+    print("--------     -----------")
+    for mass, stretch in system:
+        print(f'{mass: 8.2f}    {stretch: 11.4f}')
+    
+s()

@@ -1,9 +1,6 @@
 import math
 import numpy as np
 
-def print():
-    print("Hello World.")
-
 def moment_math():
 
     # get vect. u & v
@@ -21,7 +18,5 @@ def moment_math():
     Moment_about_unit_axis = np.dot(normal_ab, unit_axis)
     print("The moment the unit axis is", Moment_about_unit_axis, ".")
 
-print()
-exis 
 moment_math()
 
