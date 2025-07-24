@@ -7,7 +7,8 @@ options = {
 
 def play():
     while True:
-        comp_selection = options.random.choice()
+        key = random.choice(list(options.keys()))
+        comp_selection = options[key]
 
         while True:
             user_choice = input("To play choose heads or tails. 't' for tails, 'h' for heads: ")
@@ -15,7 +16,7 @@ def play():
                 user_selection = options.get(user_choice)
                 break
             else:
-                print("Enter t or h, JACKASS!!!")
+                print("Enter t or h!")
                 continue
         if comp_selection == user_selection:
             print("Correct!")
