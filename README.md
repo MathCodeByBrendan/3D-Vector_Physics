@@ -14,9 +14,23 @@
 <br>
 <h3>Math Learning:</h3>
 <h4>- Trig Trials</h4>
-<img width="609" height="450" alt="image" src="https://github.com/user-attachments/assets/9da8421d-afed-4cda-9691-b7f451a27036" />
-<img width="694" height="467" alt="image" src="https://github.com/user-attachments/assets/de2635a7-f000-48e4-b456-654cae63f3aa" />
-<img width="575" height="198" alt="image" src="https://github.com/user-attachments/assets/cbacce14-eab6-4489-9c94-205fb9822a5b" />
+<p>Game 1:</p>
+<img width="670" height="407" alt="image" src="https://github.com/user-attachments/assets/d8e9b3e1-3fd6-4f5c-b244-83793cd4e1b2" />
+<img width="673" height="399" alt="image" src="https://github.com/user-attachments/assets/94f6fb5f-d3d6-4ffa-a1c8-896d50f09968" />
+<img width="1083" height="127" alt="image" src="https://github.com/user-attachments/assets/180a85bf-ccd7-43aa-9846-4a62f912176d" />
+<br>
+<p>Game 2:</p>
+<p>Starts of by creating a triangle with opposite and hypotenuse labeled:</p>
+<img width="662" height="396" alt="image" src="https://github.com/user-attachments/assets/bcdc52b9-d982-4758-96d9-0e6644cfb33e" />
+<p>Then proceeds to create new triangle with adjacent and hypotenuse labeled:</p>
+<img width="558" height="368" alt="image" src="https://github.com/user-attachments/assets/89d12afd-96a6-41af-b90b-9896b51b9045" />
+<p>Finally creates final triangle with opposite and adjacent labeled</p>
+<img width="594" height="369" alt="image" src="https://github.com/user-attachments/assets/18ac26c2-68c4-48d3-9c8e-4dcba3850ddf" />
+<br>
+<img width="1100" height="378" alt="image" src="https://github.com/user-attachments/assets/4c419b48-9586-447d-ad3c-d398ba0828e3" />
+
+
+
 <br>
 <br>
 <h3>Casino Games:</h3>
