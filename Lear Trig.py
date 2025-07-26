@@ -47,6 +47,7 @@ def test_user(identity, val):
                 print('Awesome answer! CORRECT!!!')
                 break
             else:
+                print("So close!!!")
                 if repeat():
                     continue
                 else:
@@ -67,6 +68,7 @@ def test_user_g2(θ_radians, θ_degrees):
                     print('Awesome answer! CORRECT!!!')
                     break
                 else:
+                    print("So close!!!")
                     if repeat():
                         continue
                     else:
@@ -120,13 +122,13 @@ Font_20 = ('Monospace', 20, 'bold')
 Font_25 = ('Monospace', 25, 'bold')
 
 #Create Title
-ct.color('yellow')
-ct.penup()
-ct.setposition(-300, 200)
-ct.pendown()
-ct.write('Trig Games', font = Font_25)
-ct.penup()
-ct.setposition(0, 0)
+t.color('yellow')
+t.penup()
+t.setposition(-300, 200)
+t.pendown()
+t.write('Trig Games', font = Font_25)
+t.penup()
+t.setposition(0, 0)
 
 # Create Game Options User Interface
 t.color("red")
@@ -139,8 +141,8 @@ for i in range(1, 4):
     t.write(f'To play game {i} enter {i}', font = Font_Main)
 
 def create_triangle()-> list:
-    min_length = 100
-    max_length = 350
+    min_length = 50
+    max_length = 250
     
     # Generate lengths (green, blue, white)
     green, blue = [np.random.randint(min_length, max_length) for _ in range(2)]
@@ -211,6 +213,8 @@ def game_1():
         if repeat():
             continue
         break
+    #let user play new game
+    select_game()
 
 def play_game_2(side1, side2):
     global green, blue, white
@@ -245,15 +249,24 @@ def play_game_2(side1, side2):
  
 def game_2():
     while True:
-        play_game_2('opposite', 'hypotenuse')
-        play_game_2('adjacent', 'hypotenuse')
-        play_game_2('opposite', 'adjacent')
+        games = [
+            ('opposite', 'hypotenuse'),
+            ('adjacent', 'hypotenuse'),
+            ('opposite', 'adjacent')
+        ]
+
+        random.shuffle(games)
+
+        for side1, side2 in games:
+            play_game_2(side1, side2)
 
         if repeat():
             clear_triangle_and_markup()
             continue
         else:
             break  
+    #Let user select new game
+    select_game()
         
 
 def select_game():
