@@ -334,14 +334,16 @@ def play_game_3(side):
             if math.isclose(ans1, green, rel_tol=1e-3):
                 print("Correct")
             else:
+                print(f"Answer 1 is incorrect.")
                 if repeat():
                     continue
             
-            if math.isclose(ans2, blue, rel_tol=1e-3):
+            if math.isclose(ans2, white, rel_tol=1e-3):
                 print("Correct")
                 clear_triangle_and_markup()
                 break
             else:
+                print(f"Answer 2 is incorrect")
                 if repeat():
                     clear_triangle_and_markup()
                     continue
@@ -367,6 +369,7 @@ def play_game_3(side):
             if math.isclose(ans1, blue, rel_tol=1e-3):
                 print("Correct")
             else:
+                print("Answer 1 is incorrect")
                 if repeat():
                     continue
             
@@ -375,6 +378,7 @@ def play_game_3(side):
                 clear_triangle_and_markup()
                 break
             else:
+                print("Answer 2 is incorrect")
                 if repeat():
                     clear_triangle_and_markup()
                     continue
@@ -400,6 +404,7 @@ def play_game_3(side):
             if math.isclose(ans1, blue, rel_tol=1e-3):
                 print("Correct")
             else:
+                print("Answer 1 is incorrect")
                 if repeat():
                     continue
             
@@ -412,6 +417,7 @@ def play_game_3(side):
                     clear_triangle_and_markup()
                     continue
                 else:
+                    print("Answer 2 is incorrect")
                     clear_triangle_and_markup()
                     break
 
