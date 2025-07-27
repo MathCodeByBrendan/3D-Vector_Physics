@@ -28,9 +28,12 @@
 <img width="594" height="369" alt="image" src="https://github.com/user-attachments/assets/18ac26c2-68c4-48d3-9c8e-4dcba3850ddf" />
 <br>
 <img width="1100" height="378" alt="image" src="https://github.com/user-attachments/assets/4c419b48-9586-447d-ad3c-d398ba0828e3" />
-
-
-
+<p>Game 3:</p>
+<p>Game 3 starts by creating a new triangle, then drawing opposite length, adjacent length, or hypotenuse length. Which side is first shown is random. On each iteration of the game, 3 in total, a new triangle is drawn. Each time the associated angle theta is displayed along with the random side.</p>
+<p>In this case the opposite side is shown.</p>
+<img width="569" height="363" alt="image" src="https://github.com/user-attachments/assets/d03d5d7a-bd0e-46fa-a018-dbec80810a31" />
+<p>The user is prompted to enter the missing two lengths (adjacent and hypotenuse.) The user's answers are then tested. If they are wrong the program reasks till correct, or the user skips the problem.</p>
+<p>The process then restarts and the user inputs the two missing lenghts until they correctly answer the questions or decide to quit.</p>
 <br>
 <br>
 <h3>Casino Games:</h3>
