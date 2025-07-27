@@ -13,27 +13,27 @@
 <br>
 <br>
 <h3>Math Learning:</h3>
-<h4>- Trig Trials</h4>
-<p>Game 1:</p>
+<h3>- Trig Trials</h3>
+<h4>Game 1:</h4>
 <img width="670" height="407" alt="image" src="https://github.com/user-attachments/assets/d8e9b3e1-3fd6-4f5c-b244-83793cd4e1b2" />
 <img width="673" height="399" alt="image" src="https://github.com/user-attachments/assets/94f6fb5f-d3d6-4ffa-a1c8-896d50f09968" />
 <img width="1083" height="127" alt="image" src="https://github.com/user-attachments/assets/180a85bf-ccd7-43aa-9846-4a62f912176d" />
 <br>
-<p>Game 2:</p>
-<p>Starts of by creating a triangle with opposite and hypotenuse labeled:</p>
+<h4>Game 2:</h4>
+<h4>Starts of by creating a triangle with opposite and hypotenuse labeled:</h4>
 <img width="662" height="396" alt="image" src="https://github.com/user-attachments/assets/bcdc52b9-d982-4758-96d9-0e6644cfb33e" />
-<p>Then proceeds to create new triangle with adjacent and hypotenuse labeled:</p>
+<h4>Then proceeds to create new triangle with adjacent and hypotenuse labeled:</h4>
 <img width="558" height="368" alt="image" src="https://github.com/user-attachments/assets/89d12afd-96a6-41af-b90b-9896b51b9045" />
-<p>Finally creates final triangle with opposite and adjacent labeled</p>
+<h4>Finally creates final triangle with opposite and adjacent labeled</h4>
 <img width="594" height="369" alt="image" src="https://github.com/user-attachments/assets/18ac26c2-68c4-48d3-9c8e-4dcba3850ddf" />
 <br>
 <img width="1100" height="378" alt="image" src="https://github.com/user-attachments/assets/4c419b48-9586-447d-ad3c-d398ba0828e3" />
-<p>Game 3:</p>
-<p>Game 3 starts by creating a new triangle, then drawing opposite length, adjacent length, or hypotenuse length. Which side is first shown is random. On each iteration of the game, 3 in total, a new triangle is drawn. Each time the associated angle theta is displayed along with the random side.</p>
-<p>In this case the opposite side is shown.</p>
+<h4>Game 3:</h4>
+<h5>Game 3 starts by creating a new triangle, then drawing opposite length, adjacent length, or hypotenuse length. Which side is first shown is random. On each iteration of the game, 3 in total, a new triangle is drawn. Each time the associated angle theta is displayed along with the random side.</h5>
+<h5>In this case the opposite side is shown.</h5>
 <img width="569" height="363" alt="image" src="https://github.com/user-attachments/assets/d03d5d7a-bd0e-46fa-a018-dbec80810a31" />
-<p>The user is prompted to enter the missing two lengths (adjacent and hypotenuse.) The user's answers are then tested. If they are wrong the program reasks till correct, or the user skips the problem.</p>
-<p>The process then restarts and the user inputs the two missing lenghts until they correctly answer the questions or decide to quit.</p>
+<h5>The user is prompted to enter the missing two lengths (adjacent and hypotenuse.) The user's answers are then tested. If they are wrong the program reasks till correct, or the user skips the problem.</h5>
+<h5>The process then restarts and the user inputs the two missing lenghts until they correctly answer the questions or decide to quit.</h5>
 <br>
 <br>
 <h3>Casino Games:</h3>
