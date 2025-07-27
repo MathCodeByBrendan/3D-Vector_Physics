@@ -48,42 +48,42 @@ def jump_velocity():
             continue
         break
     #initial vertical velocity formula: sqrt(2g(max height))
-    v_o = math.sqrt(2*G_EARTH*max_height_earth)
+    v_o = np.sqrt(2*G_EARTH*max_height_earth)
     return max_height_earth, v_o
 
 def height_as_a_function_of_time():
 
     planet_name, g_other = gravity()
     max_height_earth, v_o = jump_velocity()
-    max_height_other = math.fabs((v_o ** 2) / (2*g_other))
-    while True:
-        try:
-            p_o = float(input("Enter start height, recomended start height is 0. Start height: "))
-        except ValueError:
-            print("Enter a height number(m)")
-            continue
-        break
+    max_height_other = abs((v_o ** 2) / (2*g_other))
     v_of_t = sp.integrate(g_other, t) + v_o
-    p_of_t = sp.integrate(v_of_t, t) + p_o
+    p_of_t = sp.integrate(v_of_t, t)
 
-    print(f"Acceleration on {planet_name} is a constant {g_other} (m/s^2). If on Earth you can jump {max_height_earth} m, then on {planet_name} you can jump {max_height_other} m. With an inital velocity, and position of {v_o} (m/s) and {p_o} m repectively your position is given by f(t) = {p_of_t}")
+    print(f"Acceleration on {planet_name} is a constant {g_other} (m/s^2). If on Earth you can jump {max_height_earth} m, then on {planet_name} you can jump {max_height_other} m. With an inital vertical velocity of {v_o} (m/s), your vertical position is given by f(t) = {p_of_t}")
 
-    return p_of_t
+    return p_of_t, max_height_other
 
 def graph_height():
-    p_of_t = height_as_a_function_of_time()
+    p_of_t, max_height_other = height_as_a_function_of_time()
     height_graph = sp.lambdify(t, p_of_t, "numpy")
-
-
     t_max = float(max(sp.solve(p_of_t, t)))
+    t_half = t_max/2
     num_of_t_points = math.ceil(t_max*100)
     t_vals = np.linspace(0, t_max, num=num_of_t_points)
     height_vals = height_graph(t_vals)
 
     plt.plot(t_vals, height_vals)
-    plt.title("Height on your planet of choice")
+    plt.title("Height on your planet of choice", fontfamily = "Monospace" , fontsize = 14)
     plt.xlabel("time (s)")
     plt.ylabel("height (m)")
+
+    plt.plot(t_half, max_height_other, 'ro')
+    plt.annotate(f"({max_height_other:.2f} m @ {t_half:.2f} s)",
+    color = 'darkgreen',
+    xy=(t_half, max_height_other),
+    xytext=(t_half - t_half/2.9, max_height_other - max_height_other/5),
+    arrowprops=dict(arrowstyle='->'))
+
     plt.show()
 
 graph_height()
