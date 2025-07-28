@@ -24,7 +24,7 @@
 <img width="662" height="396" alt="image" src="https://github.com/user-attachments/assets/bcdc52b9-d982-4758-96d9-0e6644cfb33e" />
 <h4>Then proceeds to create new triangle with adjacent and hypotenuse labeled:</h4>
 <img width="558" height="368" alt="image" src="https://github.com/user-attachments/assets/89d12afd-96a6-41af-b90b-9896b51b9045" />
-<h4>Finally creates final triangle with opposite and adjacent labeled</h4>
+<h4>Finally creates final triangle with opposite and adjacent labeled. On each iteration the user is asked to solve for θ. User may enter θ in degrees or radians.</h4>
 <img width="594" height="369" alt="image" src="https://github.com/user-attachments/assets/18ac26c2-68c4-48d3-9c8e-4dcba3850ddf" />
 <br>
 <img width="1100" height="378" alt="image" src="https://github.com/user-attachments/assets/4c419b48-9586-447d-ad3c-d398ba0828e3" />
