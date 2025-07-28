@@ -1,4 +1,4 @@
-<h1><b>Math & Physics Arcade:</b></h1>
+<h1><b>Math & Physics Library:</b></h1>
 <h3>- Graph Parabolic Motion On and Off Earth</h3>
 <br>
 <img width="1086" height="116" alt="image" src="https://github.com/user-attachments/assets/73a78807-bf0d-464b-9280-ed050120b724" />
