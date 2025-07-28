@@ -10,6 +10,7 @@
 
 <h3>Game 1: Side Detective</h3>
 <h5>Game one consists of finding sin(θ), cos(θ), and tan(θ). The game allows you to enter an answer as a fraction. This makes finding the three trig identities much quicker while still ensuring proper comprehension of the identities. </h5>
+<br>
 <img width="670" height="407" alt="image" src="https://github.com/user-attachments/assets/d8e9b3e1-3fd6-4f5c-b244-83793cd4e1b2" />
 <img width="673" height="399" alt="image" src="https://github.com/user-attachments/assets/94f6fb5f-d3d6-4ffa-a1c8-896d50f09968" />
 <img width="1083" height="127" alt="image" src="https://github.com/user-attachments/assets/180a85bf-ccd7-43aa-9846-4a62f912176d" />
@@ -17,10 +18,15 @@
 
 <h3>Game 2: Theta Finder</h3>
 <h5>This game starts by creating a triangle with the opposite and hypotenuse labeled:</h5>
+<br>
 <img width="662" height="396" alt="image" src="https://github.com/user-attachments/assets/bcdc52b9-d982-4758-96d9-0e6644cfb33e" />
+<br>
 <h5>It then dipicts a new triangle with the adjacent and hypotenuse labeled:</h5>
+<br>
 <img width="558" height="368" alt="image" src="https://github.com/user-attachments/assets/89d12afd-96a6-41af-b90b-9896b51b9045" />
+<br>
 <h5>Finally, it creates a third triangle with the opposite and adjacent sides labeled. On each iteration, you are asked to solve for θ. You may enter θ in degrees or radians.</h5>
+<br>
 <img width="594" height="369" alt="image" src="https://github.com/user-attachments/assets/18ac26c2-68c4-48d3-9c8e-4dcba3850ddf" />
 <br>
 <img width="1100" height="378" alt="image" src="https://github.com/user-attachments/assets/4c419b48-9586-447d-ad3c-d398ba0828e3" />
