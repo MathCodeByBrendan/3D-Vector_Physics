@@ -37,21 +37,21 @@
      src="https://github.com/user-attachments/assets/180a85bf-ccd7-43aa-9846-4a62f912176d" />
 <br>
 
-<h4>Game&nbsp;2:</h4>
-<h4>Starts off by creating a triangle with the opposite and hypotenuse labeled:</h4>
+<h4>Game 2:</h4>
+<h5>Starts off by creating a triangle with the opposite and hypotenuse labeled:</h5>
 <img width="662" alt="G2‑1"
      src="https://github.com/user-attachments/assets/bcdc52b9-d982-4758-96d9-0e6644cfb33e" />
-<h4>Then proceeds to create a new triangle with the adjacent and hypotenuse labeled:</h4>
+<h5>Then proceeds to create a new triangle with the adjacent and hypotenuse labeled:</h5>
 <img width="558" alt="G2‑2"
      src="https://github.com/user-attachments/assets/89d12afd-96a6-41af-b90b-9896b51b9045" />
-<h4>Finally, it creates the final triangle with the opposite and adjacent sides labeled. On each iteration, the user is asked to solve for θ. The user may enter θ in degrees or radians.</h4>
+<h5>Finally, it creates the final triangle with the opposite and adjacent sides labeled. On each iteration, the user is asked to solve for θ. The user may enter θ in degrees or radians.</h5>
 <img width="594" alt="G2‑3"
      src="https://github.com/user-attachments/assets/18ac26c2-68c4-48d3-9c8e-4dcba3850ddf" />
 <br>
 <img width="1100" alt="G2‑summary"
      src="https://github.com/user-attachments/assets/4c419b48-9586-447d-ad3c-d398ba0828e3" />
 
-<h4>Game&nbsp;3:</h4>
+<h4>Game 3:</h4>
 <h5>Game&nbsp;3 starts by creating a new triangle. It then draws the length of the opposite, adjacent, or hypotenuse. <b>The first side shown is chosen at random.</b> On each iteration of the game, three in total, a new triangle is drawn. Each time, the associated angle theta is displayed along with the random side.</h5>
 <h5>In this case, the opposite side is shown.</h5>
 <img width="569" alt="G3‑1"
