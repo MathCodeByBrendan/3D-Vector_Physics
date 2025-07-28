@@ -32,7 +32,6 @@
 <ul>
   <li><strong>Trig Trials</strong>
     <ul>
-      <!-- --------  Game 1  -------- -->
       <li><strong>Game&nbsp;1</strong><br>
         <img width="670" alt="G1‑1"
              src="https://github.com/user-attachments/assets/d8e9b3e1-3fd6-4f5c-b244-83793cd4e1b2" />
@@ -42,7 +41,6 @@
              src="https://github.com/user-attachments/assets/180a85bf-ccd7-43aa-9846-4a62f912176d" />
       </li>
 
-      <!-- --------  Game 2  -------- -->
       <li><strong>Game&nbsp;2</strong><br>
         Starts off by creating a triangle with the opposite and hypotenuse labeled.<br>
         <img width="662" alt="G2‑1"
@@ -58,11 +56,10 @@
              src="https://github.com/user-attachments/assets/4c419b48-9586-447d-ad3c-d398ba0828e3" />
       </li>
 
-      <!-- --------  Game 3  -------- -->
       <li><strong>Game&nbsp;3</strong><br>
         Game 3 starts by creating a new triangle.  
         It then draws the length of the opposite, adjacent, or hypotenuse.  
-        <b>The first side shown is chosen at random.</b>   
+        <b>The first side shown is chosen at random.</b>  
         On each iteration of the game (three in total), a new triangle is drawn.  
         Each time, the associated angle θ is displayed along with the random side.<br>
         In this case, the opposite side is shown.<br>
@@ -83,12 +80,12 @@
 
 <ul>
   <li><strong>Dice Bets</strong><br>
-    <img width="1103" alt="Dice"
+    <img width="1103" alt="Dice Bets Screenshot"
          src="https://github.com/user-attachments/assets/6de58e08-fa20-4da9-9138-37adbc93e308" />
   </li>
 
   <li><strong>Rock, Paper, Scissors</strong><br>
-    <img width="446" alt="RPS"
+    <img width="446" alt="Rock Paper Scissors Screenshot"
          src="https://github.com/user-attachments/assets/381d99bc-bb31-472d-989c-8612cc62309d" />
   </li>
 </ul>
